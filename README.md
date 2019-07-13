@@ -1,2 +1,2 @@
-# Hibernate-java-basics
-Basic ORM operations using hibernate - Core Java
+# Core Java Basics
+Understanding the core java basics.

@@ -1,0 +1,33 @@
+stream:
+	Stream -> Intermediate operation(IO 1) -> IO 2 -> IO N -> Terminal operation.
+	
+    Short-circuited: 
+		- It knows subsequent intermediate operatios and based on that previous are run 
+		- e.x. limit(5)
+	loop fusion:
+		- This joining together of operations in a single pass is an optimization technique
+
+Intermediate operations:
+	filter()
+	map()
+	flatMap()
+	distinct()
+	sorted()
+	peek()
+	limit()
+	skip()
+	
+Terminal operations:
+ 	forEach()
+	forEachOrdered()
+	toArray()
+	reduce()
+	collect()
+	min()
+	max()
+	count()
+	anyMatch()
+	allMatch()
+	noneMatch()
+	findFirst()  
+	findAny()
